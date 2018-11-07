@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    flex-basis: 15%;
+    flex-grow: 1;
+    height: 33.33vh;
+    /*    background: #000;*/
+    border: 2px solid #fff;
+}
+
+@media(orientation: portrait) {
+    div {
+        flex-basis: 30%;
+        height: 16.66vh;
+    }
+}
+
+.darkred {
+    background-color: darkred
+}
+
+.green {
+    background-color: green;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.deeppink {
+    background-color: deeppink;
+}
+
+.hidden {
+    background-color: #000;
+}
+
+.off {
+    background-color: #eee;
+}
